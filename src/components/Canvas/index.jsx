@@ -7,7 +7,7 @@ function Canvas() {
     const widthImage = 436;
     const heightBottom = 300;
     const [heightCanvas, setHeightCanvas] = useState(1000);
-    const [imageSrc, setImageSrc] = useState("/example.png");
+    const [imageSrc, setImageSrc] = useState("/create_certificate/example.png");
     const [artist, setArtist] = useState("");
     const [title, setTitle] = useState("");
     const [material, setMaterial] = useState("");
